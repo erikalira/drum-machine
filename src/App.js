@@ -50,7 +50,7 @@ var pads = [
 ]
 
 const App = () => {
-  const [keyPressed, setKeyPressed] = React.useState('')
+  const [keyPressed, setKeyPressed] = React.useState("LET'S PLAY SOMETHING!")
   const playAudio = pad => {
     const audio = document.getElementById(pad.key);
     setKeyPressed(pad.key)
